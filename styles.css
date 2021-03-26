@@ -8,9 +8,27 @@
 header {
   display: flex;
   width: 100%;
-  padding: 50px;
+  padding: 35px 35px 35px 15px;
   border-bottom: 1px solid gray;
 }
+
+.top-nav {
+  display: flex;
+  list-style-type: none;
+  float: right;
+}
+
+li a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #2e3131;
+}
+
+li a:hover,
+li a:active {
+  color: #5dcecf;
+}
+
 
 /* Footer Styles */
 footer {
