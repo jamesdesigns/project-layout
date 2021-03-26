@@ -1,53 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Raleway', sans-serif;
-}
-
-/* Header Styles */
-header {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 35px 35px 35px 15px;
-  border-bottom: 1px solid gray;
-}
-
-.top-nav {
-  display: flex;
-  list-style-type: none;
-  margin-right: 25px;
-  margin-top: 25px;
-}
-
-/* .active {
-  color: #5dcecf;
-}
-
-li a {
-  text-decoration: none;
-  margin-right: 15px;
-  color: #2e3131;
-}
-
-li a:hover,
-li a:active {
-  color: #5dcecf;
-}
-
-a.quote-btn {
-  background-color: #ff9900;
-  padding: 15px 20px;
-  border-radius: 30px;
-  color: white;
-}
-
-a.quote-btn:hover { 
-  color: white;
-  background-color: #ebaf79;
- } */
-
- .outer-menu {
+.outer-menu {
   position: fixed;
   top: 150px;
   left: 150px;
@@ -178,7 +129,6 @@ a.quote-btn:hover {
   margin: 0;
   display: block;
   max-height: 100vh;
-  text-align: left;
 }
 .outer-menu .menu > div > div > ul > li {
   padding: 0;
@@ -191,8 +141,6 @@ a.quote-btn:hover {
   display: inline;
   cursor: pointer;
   transition: color 0.4s ease;
-  text-decoration: none;
-  color: white;
 }
 
 
@@ -235,48 +183,3 @@ a.quote-btn:hover {
 .outer-menu .checkbox-toggle:checked:hover + .hamburger > div {
   transform: rotate(225deg);
 }
-
-/* Section */
-
-
-
-/* Footer Styles */
-footer {
-  width: 100%;
-  background-color: #212121;
-  color: #ebebeb;
-  position: absolute;
-  bottom: 0;
-}
-
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
-
-ul.footer-nav {
-  display: flex;
-  /* margin-right: 30px;
-  margin-left: 30px; */
-  padding-top: 100px;
-  padding-bottom: 100px;
-  list-style-type: none;
-
-}
-
-ul li {
-  margin-right: 30px;
-}
-
-.company-info {
-  display: flex;
-  justify-content: space-between;
-  /* margin-left: 30px; */
-  padding-bottom: 100px;
-}
-
-.address-phone {
-  /* margin-right: 30px; */
-}
-
-/* Responsive Top Navigation */
