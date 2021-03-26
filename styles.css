@@ -76,11 +76,15 @@ ul.footer-nav {
   padding-top: 100px;
   padding-bottom: 100px;
   list-style-type: none;
-
+  color: white;
 }
 
 ul li {
   margin-right: 30px;
+}
+
+a.btm-nav  {
+  color: white;
 }
 
 .company-info {
@@ -256,7 +260,8 @@ ul li {
   
   
   .outer-menu .menu > div > div > ul > li > a:hover {
-    color: #e5e5e5;
+    /* color: #e5e5e5; */
+    color: white;
   }
   .outer-menu .menu > div > div > ul > li > a:hover:after {
     width: 100%;
