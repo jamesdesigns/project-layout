@@ -9,7 +9,7 @@ header {
   /* display: flex;
   justify-content: space-between; */
   width: 100%;
-  padding: 35px 35px 35px 15px;
+  padding: 10px 35px 35px 15px;
   border-bottom: 1px solid gray;
 }
 
@@ -24,8 +24,8 @@ header {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  margin-right: 25px;
-  margin-top: 25px;
+  /* margin-right: 25px;
+  margin-top: 25px; */
 }
 
 .menu {
@@ -126,11 +126,15 @@ a.btm-nav  {
 
 @media only screen and (min-width:321px) and (max-width:1166px) {
 
+  header {
+    height: 30px;
+  }
+
   .logo {
     position: fixed;
     top: 0;
     left: 0;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 30px;
   }
 
@@ -152,7 +156,7 @@ a.btm-nav  {
     z-index: 2;
     cursor: pointer;
     width: 60px;
-    height: 60px;
+    height: 80px;
     opacity: 0;
   }
   
