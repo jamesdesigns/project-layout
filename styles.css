@@ -9,7 +9,7 @@ header {
   /* display: flex;
   justify-content: space-between; */
   width: 100%;
-  padding: 10px 35px 35px 15px;
+  padding: 35px 35px 35px 15px;
   border-bottom: 1px solid gray;
 }
 
@@ -84,6 +84,7 @@ footer {
   color: #ebebeb;
   position: absolute;
   bottom: 0;
+  font-weight: 300;
 }
 
 .container {
@@ -127,7 +128,7 @@ a.btm-nav  {
 @media only screen and (min-width:321px) and (max-width:1166px) {
 
   header {
-    height: 30px;
+    height: 6px;
   }
 
   .logo {
@@ -166,11 +167,15 @@ a.btm-nav  {
     top: 0;
     right: 0;
     z-index: 1;
-    width: 60px;
-    height: 60px;
-    padding: 0.5em 1em;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 5px;
+    /* padding: 0.5em 1em; */
+    padding: 15px;
     background: rgba(240, 141, 52, 0.75);
-    border-radius: 0 0.12em 0.12em 0;
+    /* border-radius: 0 0.12em 0.12em 0; */
+    border-radius: 50%;
     cursor: pointer;
     transition: box-shadow 0.4s ease;
     -webkit-backface-visibility: hidden;
