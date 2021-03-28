@@ -61,7 +61,7 @@ li a {
 
 li a:hover,
 li a:active {
-  color: #5dcecf;
+  color: #2ca3e5;
 }
 
 a.quote-btn {
@@ -136,6 +136,7 @@ h2 {
 
 iframe {
   margin-top: 45px;
+  margin: 45px 30px 15px;
 }
 
 
