@@ -126,8 +126,12 @@ a.btm-nav  {
   text-align: center;
 }
 
-.address-phone {
+.footer-logo {
   margin-bottom: 15px;
+}
+
+.address-phone {
+  margin-bottom: 10px;
 }
 
 /* Responsive Top Navigation */
