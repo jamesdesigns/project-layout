@@ -5,6 +5,7 @@
 }
 
 .padding-top-45 { padding-top: 45px; }
+.margin-bottom-10 { margin-bottom: 10px; }
 
 /* Header Styles */
 header {
@@ -140,6 +141,7 @@ a.btm-nav  {
 
 @media only screen and (min-width:321px) and (max-width:1166px) {
 
+  /* Responsive Navigation */
   header {
     height: 6px;
   }
@@ -356,5 +358,25 @@ a.btm-nav  {
     background-color: white;
     color: #ff9900;
   }
+
+  /* End of Responsive Navigation */
+
+
+  footer {
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  ul.footer-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer li {
+    margin-bottom: 20px;
+  }
+
+  
+
 
 }
