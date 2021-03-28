@@ -83,6 +83,17 @@ h1 {
   text-align: center;
 }
 
+.hero-banner {
+  background-image: url('images/apartment-3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 115px;
+  /* background-size: cover; */
+  margin-top: 0;
+  height: 90vh;
+
+}
+
 
 
 /* Footer Styles */
@@ -374,9 +385,11 @@ a.btm-nav  {
 
   footer li {
     margin-bottom: 20px;
+    margin-left: 5%;
   }
 
   
 
 
 }
+
