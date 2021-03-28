@@ -4,6 +4,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.padding-top-45 { padding-top: 45px; }
+
 /* Header Styles */
 header {
   /* display: flex;
@@ -39,7 +41,7 @@ ul li {
 }
 
 .active {
-  color: #5dcecf;
+  color: #2ca3e5;
 }
 
 li a {
@@ -74,6 +76,13 @@ section {
   height: 90vh;
 }
 
+h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+
 
 /* Footer Styles */
 footer {
@@ -92,6 +101,7 @@ footer {
 
 ul.footer-nav {
   display: flex;
+  justify-content: center;
   /* margin-right: 30px;
   margin-left: 30px; */
   padding-top: 50px;
@@ -336,4 +346,10 @@ a.btm-nav  {
   .outer-menu .checkbox-toggle:checked:hover + .hamburger > div {
     transform: rotate(225deg);
   }
+
+  a.quote-btn {
+    background-color: white;
+    color: #ff9900;
+  }
+
 }
