@@ -267,7 +267,7 @@ blockquote:before {
  /* Testimonial Section */
 
  .testimonials {
-   background-color: #ccc;
+   background-color: #F0F0F0;
  }
 
  .testim {
@@ -345,7 +345,7 @@ blockquote:before {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 1px solid #eee;
+  border: 1px solid #494949;
   margin: 0 10px;
   cursor: pointer;
   -webkit-transition: all .5s ease-in-out;    
@@ -397,10 +397,10 @@ blockquote:before {
 
 .testim .cont div .img img {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 58.3px;
   margin: auto;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .testim .cont div h2 {
@@ -411,7 +411,8 @@ blockquote:before {
 
 .testim .cont div p {
   font-size: 1.15em;
-  color: #eee;
+  font-weight: 300;
+  color: #494949;
   width: 80%;
   margin: auto;
 }
