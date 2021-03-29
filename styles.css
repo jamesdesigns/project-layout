@@ -17,6 +17,7 @@
 .blue-text { color: #2ca3e5; }
 .text-center { text-align: center; }
 .font-light-100 { font-weight: 100; }
+.font-light-200 { font-weight: 200; }
 .font-light-300 { font-weight: 300; }
 .font-size-1-5-rem { font-size: 1.5rem; }
 .font-size-2rem { font-size: 2rem; }
@@ -103,7 +104,8 @@ h1 {
 
 /* Hero Banner */
 .hero-banner {
-  background-image: url('images/apartment-3.jpg');
+  /* background-image: url('images/apartment-3.jpg'); */
+  background-image: url('images/properties-1.jpg'); 
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-position: center top;
@@ -148,7 +150,7 @@ div#animate {
 
 h2 {
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 300;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
 }
