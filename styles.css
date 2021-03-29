@@ -223,6 +223,10 @@ blockquote:before {
   padding: 60px 0;
  }
 
+ .case-img {
+   height: 240px;
+ }
+
  .case {
    display: flex;
    justify-content: center;
