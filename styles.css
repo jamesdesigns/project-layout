@@ -27,6 +27,7 @@ header {
   -webkit-box-shadow:0px 0px 5px .5px #c5c2c2 ;
   -moz-box-shadow:0px 0px 5px .5px #c5c2c2 ;
   box-shadow:0px 0px 5px .5px #c5c2c2 ;
+  z-index: 9999;
 }
 
 .outer-menu {
@@ -107,8 +108,8 @@ h1 {
 }
 
 .title-container {
-  background-color:rgba(0, 0, 0, 0.5);
-  width: 900px;
+  background-color:rgba(0, 0, 0, 0.65);
+  width: 960px;
   margin: 0 auto;
   text-align: center;
   padding-top: 175px;
@@ -120,7 +121,8 @@ h1 {
 
 /* Customer Stories */
 .customer-stories {
-  width: 100%;
+  width: 960px;
+  margin: 0 auto;
 }
 
 h2 {
@@ -132,12 +134,26 @@ h2 {
 
 .youtube-videos {
   display: flex;
+  /* justify-content: center; */
   justify-content: center;
 }
 
 iframe {
   margin-top: 45px;
-  margin: 45px 30px 15px;
+  margin: 45px 0 15px;
+  width: 435px;
+  height: 245px;
+}
+
+/* .video-one {
+  width: 350px;
+} */
+
+.video-two { margin-left: 90px; } 
+
+.customer-logo-img {
+  margin-top: 30px;
+  margin-left: 70px;
 }
 
 blockquote {
@@ -444,6 +460,41 @@ a.btm-nav  {
   }
 
   /* End of Responsive Navigation */
+
+  section {
+    height: auto;
+  }  
+
+  .youtube-videos {
+    flex-direction: column;
+  }
+
+  .video-one { margin-left: 0; } 
+  .video-two { margin-left: 0; } 
+
+  iframe {
+    width: 600px;
+    height: 338px;
+  }
+
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9*/
+    position: relative;
+  }
+  
+  .iframe-container iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+  }
+
+  blockquote {
+    width: 400px;
+  }
 
 
   footer {
