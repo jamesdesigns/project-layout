@@ -112,7 +112,7 @@ h1 {
   background-size: cover;
   margin-top: 0;
   /* height: 90vh; */
-  height: 50vh;
+  height: 60vh;
 }
 
 .title-container {
@@ -132,10 +132,21 @@ div#animate {
 }
 
 @keyframes mymove {
-  0%   {top: 0px;}
+  /* 0%   {top: 0px;}
   25%  {top: 25px;}
   75%  {top: 6.25px}
-  100% {top: 12.5px;}
+  100% {top: 12.5px;} */
+  0% {
+    transform: translateY(-10%);
+  }
+
+  50% {
+    transform: translateY(10%);
+  }
+
+  100% {
+    transform: translateY(-10%);
+  }
 }
 
 .title-container h1 {
