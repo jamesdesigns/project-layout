@@ -14,6 +14,7 @@
 .margin-top-30 { margin-top: 30px; }
 .margin-top-50 { margin-top: 50px; }
 .white-text { color: white; }
+.blue-text { color: #2ca3e5; }
 .text-center { text-align: center; }
 .font-light-100 { font-weight: 100; }
 .font-light-300 { font-weight: 300; }
@@ -221,6 +222,7 @@ blockquote:before {
  .case {
    display: flex;
    justify-content: center;
+   margin-bottom: 30px;
  }
 
  .num { 
@@ -228,6 +230,11 @@ blockquote:before {
    color: white;
    width: 50px;
    height: 50px; 
+ }
+
+ .align-num {
+  
+   padding: 15px;
  }
 
  .case-content {
