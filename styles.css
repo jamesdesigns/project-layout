@@ -114,11 +114,14 @@ h1 {
 }
 
 .title-container {
-  background-color:rgba(0, 0, 0, 0.65);
   width: 960px;
   margin: 0 auto;
   text-align: center;
   padding-top: 175px;
+}
+
+.bg-black-opaque {
+  background-color:rgba(0, 0, 0, 0.65);
 }
 
 div#animate {
@@ -877,6 +880,7 @@ ul.footer-nav {
   padding-bottom: 70px;
   list-style-type: none;
   color: white;
+  margin-top: -150px;
 }
 
 ul li {
@@ -1212,6 +1216,7 @@ a.btm-nav  {
   ul.footer-nav {
     flex-direction: column;
     text-align: center;
+    margin-top: 0;
   }
 
   footer li {
