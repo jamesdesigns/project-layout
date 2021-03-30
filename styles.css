@@ -1124,9 +1124,11 @@ a.btm-nav:active {
     margin-left: 15px;
   } */
 
+  #hideonmobile1 { display:none;}
+
   .outer-menu {
-    position: fixed;
-    /* position: relative; */
+    /* position: fixed; */
+    position: relative;
     top: 0;
     right: 0;
     z-index: 1;
@@ -1335,7 +1337,6 @@ a.btm-nav:active {
     height: 6px;
   }
 
-  #hideonmobile1 { display:none;}
 
   .logo {
     position: fixed;
