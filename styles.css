@@ -35,9 +35,9 @@ header {
   width: 100%;
   padding: 35px 35px 35px 15px;
   border-bottom: 1px solid gray;
-  -webkit-box-shadow:0px 0px 5px .5px #c5c2c2 ;
-  -moz-box-shadow:0px 0px 5px .5px #c5c2c2 ;
-  box-shadow:0px 0px 5px .5px #c5c2c2 ;
+  -webkit-box-shadow:0px 0px 5px .5px black ;
+  -moz-box-shadow:0px 0px 5px .5px black;
+  box-shadow:0px 0px 5px .5px black ;
   z-index: 9999;
 }
 
@@ -1067,6 +1067,7 @@ ul.footer-nav {
   padding-bottom: 70px;
   list-style-type: none;
   color: white;
+  letter-spacing: 2px;
   /* margin-top: -150px; */
 }
 
@@ -1097,7 +1098,14 @@ a.btm-nav:active {
 
 .address-phone {
   margin-bottom: 10px;
+  color: rgba(255,255,255,.7);
 }
+
+.copyright {
+  color: rgba(255,255,255,.7);
+}
+
+
 
 
 /* Responsive Top Navigation */
