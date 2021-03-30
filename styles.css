@@ -19,6 +19,7 @@
 .font-light-100 { font-weight: 100; }
 .font-light-200 { font-weight: 200; }
 .font-light-300 { font-weight: 300; }
+.font-mid-500 { font-weight: 500; }
 .font-size-1-5-rem { font-size: 1.5rem; }
 .font-size-2rem { font-size: 2rem; }
 .width-200 { width: 200px; }
@@ -35,6 +36,7 @@ header {
   box-shadow:0px 0px 5px .5px #c5c2c2 ;
   z-index: 9999;
 }
+
 
 .hero-banner {
   display: flex;
@@ -128,7 +130,7 @@ h1 {
 
 div#animate {
   position: relative;
-  animation: mymove 5s infinite;
+  animation: mymove 2s infinite;
 }
 
 @keyframes mymove {
@@ -285,6 +287,7 @@ blockquote:before {
   color: white;
   margin: 0 auto;
   margin-left: 20px;
+  font-weight: 300;
 }
 
 .read-more-btn:hover { 
@@ -926,6 +929,8 @@ a.btm-nav  {
   header {
     height: 6px;
   }
+
+  #hideonmobile1 { display:none;}
 
   .logo {
     position: fixed;
