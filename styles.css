@@ -59,6 +59,8 @@ header {
 .top-navigation {
   display: flex;
   margin-top: 15px;
+  letter-spacing: 2px;
+  font-size: 14px;
 }
 
 ul li {
@@ -280,7 +282,7 @@ blockquote:before {
 }
 
 .btn-5:hover, .btn-5:focus {
-  color: orange;
+  color: #ff9900;
   outline: 0;
   border-color:#fff;
 }
@@ -312,6 +314,7 @@ blockquote:before {
     transition: all .2s;
     position: relative;
     margin-top: -20px;
+    font-weight: 500;
 }
 
 .btn-quote:hover {
@@ -326,7 +329,7 @@ blockquote:before {
 }
 
 .btn-quote-white {
-    background-color: orange;
+    background-color: #ff9900;
     color: white;
 }
 
@@ -344,7 +347,7 @@ blockquote:before {
 }
 
 .btn-quote-white::after {
-    background-color: orange;
+    background-color: #ff9900;
 }
 
 .btn-quote:hover::after {
@@ -481,7 +484,7 @@ blockquote:before {
 }
 
 .testim .arrow:hover {
-  color: #ea830e;
+  color: #ff9900
 }
   
 
@@ -523,8 +526,8 @@ blockquote:before {
 
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-  background: #ea830e;
-  border-color: #ea830e;
+  background: #ff9900;
+  border-color: #ff9900;
 }
 
 .testim .dots .dot.active {
@@ -569,7 +572,7 @@ blockquote:before {
 }
 
 .testim .cont div h2 {
-  color: #ea830e;
+  color: #ff9900;
   font-size: 1em;
   margin: 15px 0;
 }
@@ -642,13 +645,13 @@ blockquote:before {
   }
 
   70% {
-      -webkit-box-shadow: 0px 0px 10px 5px #ea830e;        
+      -webkit-box-shadow: 0px 0px 10px 5px #ff9900;        
       box-shadow: 0px 0px 10px 5px #ea830e;        
   }
 
   100% {
-      -webkit-box-shadow: 0px 0px 0px 0px #ea830e;        
-      box-shadow: 0px 0px 0px 0px #ea830e;        
+      -webkit-box-shadow: 0px 0px 0px 0px #ff9900;        
+      box-shadow: 0px 0px 0px 0px #ff9900;        
   }
 }
 
@@ -664,13 +667,13 @@ blockquote:before {
   }
 
   70% {
-      -moz-box-shadow: 0px 0px 10px 5px #ea830e;        
-      box-shadow: 0px 0px 10px 5px #ea830e;        
+      -moz-box-shadow: 0px 0px 10px 5px #ff9900;        
+      box-shadow: 0px 0px 10px 5px #ff9900;        
   }
 
   100% {
-      -moz-box-shadow: 0px 0px 0px 0px #ea830e;        
-      box-shadow: 0px 0px 0px 0px #ea830e;        
+      -moz-box-shadow: 0px 0px 0px 0px #ff9900;        
+      box-shadow: 0px 0px 0px 0px #ff9900;        
   }
 }
 
@@ -686,13 +689,13 @@ blockquote:before {
   }
 
   70% {
-      -ms-box-shadow: 0px 0px 10px 5px #ea830e;        
-      box-shadow: 0px 0px 10px 5px #ea830e;        
+      -ms-box-shadow: 0px 0px 10px 5px #ff9900;        
+      box-shadow: 0px 0px 10px 5px #ff9900;        
   }
 
   100% {
-      -ms-box-shadow: 0px 0px 0px 0px #ea830e;        
-      box-shadow: 0px 0px 0px 0px #ea830e;        
+      -ms-box-shadow: 0px 0px 0px 0px #ff9900;        
+      box-shadow: 0px 0px 0px 0px #ff9900;        
   }
 }
 
@@ -708,13 +711,13 @@ blockquote:before {
   }
 
   70% {
-      -o-box-shadow: 0px 0px 10px 5px #ea830e;        
-      box-shadow: 0px 0px 10px 5px #ea830e;        
+      -o-box-shadow: 0px 0px 10px 5px #ff9900;        
+      box-shadow: 0px 0px 10px 5px #ff9900;        
   }
 
   100% {
-      -o-box-shadow: 0px 0px 0px 0px #ea830e;        
-      box-shadow: 0px 0px 0px 0px #ea830e;        
+      -o-box-shadow: 0px 0px 0px 0px #ff9900;        
+      box-shadow: 0px 0px 0px 0px #ff9900;        
   }
 }
 
@@ -728,11 +731,11 @@ blockquote:before {
   }
 
   70% {
-      box-shadow: 0px 0px 10px 5px #ea830e;        
+      box-shadow: 0px 0px 10px 5px #ff9900;        
   }
 
   100% {
-      box-shadow: 0px 0px 0px 0px #ea830e;        
+      box-shadow: 0px 0px 0px 0px #ff9900;        
   }
 }
 
@@ -1009,6 +1012,33 @@ blockquote:before {
 }
 
 
+/* Simple, Seamless Smart Apartments Section */
+
+.simple-product {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 50px 0;
+  background-color: #ff9900;
+  color: white;
+  text-align: center;
+  margin-top: -150px;
+}
+
+.dwelo-section {
+  width: 50%;
+  text-align: right;
+  margin-top: -15px;
+}
+
+.simple-content {
+  width: 50%;
+  text-align: left;
+  margin: 0 15%;
+}
+
+
 /* Footer Styles */
 footer {
   width: 100%;
@@ -1029,7 +1059,7 @@ ul.footer-nav {
   padding-bottom: 70px;
   list-style-type: none;
   color: white;
-  margin-top: -150px;
+  /* margin-top: -150px; */
 }
 
 ul li {
@@ -1038,6 +1068,11 @@ ul li {
 
 a.btm-nav  {
   color: white;
+}
+
+a.btm-nav:hover,
+a.btm-nav:active {
+  color: #ff9900;
 }
 
 .company-info {
@@ -1331,6 +1366,41 @@ a.btm-nav  {
   blockquote {
     width: 90%;
   }
+
+  /* Simple, Seamless Smart Apartments Section */
+
+.simple-product {
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 0;
+  background-color: #ff9900;
+  color: white;
+  text-align: center;
+  margin-top: -150px;
+}
+
+.dwelo-section {
+  width: 100%;
+  text-align: center;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  /* margin-top: -15px; */
+}
+
+
+.center-mobile { text-align: center; }
+.p-mobile { margin: 0 10%; }
+
+.simple-content {
+  width: 100%;
+  text-align: left;
+  margin-left: 1px;
+  /* margin: 0 15%; */
+}
+
+
 
 
   footer {
