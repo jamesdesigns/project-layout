@@ -227,19 +227,72 @@ blockquote:before {
   text-align: center;
 }
 
+
 .learn-more-btn {
   text-decoration: none;
-  background-color: white;
+  color: white;
+  background-color: #ff9900;
   padding: 10px 20px;
   border-radius: 30px;
-  color: black;
   margin: 0 auto;
+  font-weight: 400;
 }
 
+
 .learn-more-btn:hover { 
-  color: white;
-  background-color: #ebaf79;
- }
+  color: black;
+  background-color: white;
+  font-weight: 400;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+ } 
+ 
+ .btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: .8em 2.8em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover, .btn:focus {
+  color: #2ca3e5;
+  outline: 0;
+  border-color:#fff;
+}
+
+.fourth {
+  border-color: #fff;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #fff 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.fourth:hover {
+  background-position: 0;
+}
+
 
  /* Customer Case Studies */
 .case-studies {
