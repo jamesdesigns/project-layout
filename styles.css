@@ -1020,6 +1020,11 @@ blockquote:before {
   margin-top: -35px;
 }
 
+.orange-logo-img {
+  width: 474px;
+  height: 134px;
+}
+
 .simple-content {
   width: 50%;
   text-align: left;
@@ -1359,6 +1364,11 @@ a.btm-nav:active {
   text-align: center;
   margin-left: 15px;
   margin-bottom: 15px;
+}
+
+.orange-logo-img {
+  width: 316px;
+  height: 89px;
 }
 
 .center-mobile { text-align: center; }
