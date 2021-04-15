@@ -1286,7 +1286,7 @@ a.btm-nav:active {
   }
 
   .outer-menu .hamburger {
-  margin-top: -25px;
+    margin-top: 10px;
   }
 
   .logo {
