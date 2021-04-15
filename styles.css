@@ -294,6 +294,7 @@ blockquote:before {
 .fourth:hover {
   background-position: 0;
   font-weight: 400;
+  color: #444445;
 }
 
 /* -----------------------Quote Button------------------------ */

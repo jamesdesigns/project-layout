@@ -6,9 +6,9 @@
 	.st0{fill:#444546;}
 	.st1{font-family:'NimbusSanExt-Reg';}
 	.st2{font-size:23.4646px;}
-	.st3{fill:none;stroke:#EC9F21;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#EC9F21;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st4{fill:#FFFFFF;}
-	.st5{fill:none;stroke:#444445;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#444445;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <g>
 	<text transform="matrix(1.0951 0 0 1 97.3696 50.4204)" class="st0 st1 st2">AVA ROMERO</text>
