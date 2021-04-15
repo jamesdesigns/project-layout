@@ -1282,7 +1282,7 @@ a.btm-nav:active {
 /* ---------------End of Responsive Navigation-------------------- */
 @media only screen and (max-width: 600px) {
   header {
-    height: 6px;
+    height: 76px;
   }
 
   .outer-menu .hamburger {
