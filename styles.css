@@ -518,8 +518,8 @@ blockquote:before {
 
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-  background: #2ca3e5;
-  border-color: #2ca3e5;
+  background: #ff9900;
+  border-color: #ff9900;
 }
 
 .testim .dots .dot.active {
@@ -562,7 +562,7 @@ blockquote:before {
 }
 
 .testim .cont div h2 {
-  color: #2ca3e5;
+  color: #444546;
   font-size: 1em;
   margin: 15px 0;
 }
