@@ -70,7 +70,7 @@ ul li {
 }
 
 .active {
-  color: #2ca3e5;
+  color: #ff9900;
 }
 
 li a {
@@ -1005,7 +1005,7 @@ blockquote:before {
   flex-direction: row;
   width: 100%;
   padding: 50px 0;
-  background-color:  v;
+  background-color: #ff9900;
   color: white;
   text-align: center;
   margin-top: -150px;
