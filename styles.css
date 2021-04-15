@@ -20,6 +20,7 @@
 .white-text { color: white; }
 .blue-text { color: #2ca3e5; }
 .gray-text { color: #515151; }
+.dark-gray-text { color: #444445; }
 .text-center { text-align: center; }
 .font-light-100 { font-weight: 100; }
 .font-light-200 { font-weight: 200; }
@@ -387,7 +388,7 @@ blockquote:before {
  }
 
  .num { 
-   background-color: #2ca3e5;
+  background-color: #444445;
    color: white;
    width: 50px;
    height: 50px; 
